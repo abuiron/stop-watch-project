@@ -1,0 +1,72 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;padding: 10px;
+    gap: 100px;
+}
+.hd{
+    
+    color: yellow;
+}
+.body{
+    height: 500px;
+    width: 500px;
+    border: 50px solid midnightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.border1{
+    border-radius: 50%;
+    border: 30px gray solid;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 40px;
+}
+.timer{
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    background-color: rgb(212, 211, 211);
+    color: white;
+}
+.timer sub{
+    color: purple;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.bt{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.bt1{
+    box-shadow: 3px 3px 3px 0px green;
+    border: 2px solid green;
+}
+.bt2{
+    box-shadow: 3px 3px 3px 0px red;
+    border: 2px solid red;
+}
+.bt3{
+    box-shadow: 3px 3px 3px 0px blue;
+    border: 2px solid blue;
+}
