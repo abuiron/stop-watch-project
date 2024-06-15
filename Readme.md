@@ -3,6 +3,9 @@
 ## Description
 This is a simple stopwatch application built with HTML, CSS, and JavaScript. It features start, stop, and reset functionalities. Additionally, the border of the stopwatch animates when the start button is clicked, enhancing the visual appeal.
 
+## Deployment
+
+  to watch the live project click here https://aistopwatch.netlify.app/
 ## Features
 - Start, stop, and reset the stopwatch.
 - Animated border effect when the stopwatch is running.
