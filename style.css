@@ -3,28 +3,37 @@
    margin: 0;
 }
 body{
-    background-color: black;
+    background-image: url('./bg_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;padding: 10px;
+    align-items: center;
+    padding: 10px;
     gap: 100px;
 }
 .hd{
     
-    color: yellow;
+    color: #2663ff;
+
 }
 .body{
     height: 500px;
     width: 500px;
-    border: 50px solid midnightblue;
+    border: 50px solid #2663ff;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
 }
+.body:hover{
+    border: 50px dashed #33c3f7;
+    box-shadow: 0 0 35px aqua, 0 0 50px rgb(20, 180, 243);
+}  
 .border1{
     border-radius: 50%;
     border: 30px gray solid;
@@ -37,15 +46,25 @@ body{
     background-color: whitesmoke;
     gap: 40px;
 }
+.border1:hover{
+    border: 30px dashed rgb(109, 111, 112);
+    
+}
 .timer{
     border-radius: 5px;
     width: 300px;
     height: 45px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: rgb(212, 211, 211);
+    background-color:black;
     color: white;
 }
 .timer sub{
+    display: inline;
     color: purple;
 }
 .btns{
@@ -59,14 +78,34 @@ body{
     width: 35px;
 }
 .bt1{
-    box-shadow: 3px 3px 3px 0px green;
+    box-shadow: 0px 5px 5px 0px green;
     border: 2px solid green;
+    background-color: green;
+}
+.bt1:focus{
+    box-shadow: 0px 5px 5px 0px darkgreen;
+    border: 2px solid darkgreen;
+    background-color: darkgreen;
 }
 .bt2{
-    box-shadow: 3px 3px 3px 0px red;
+    box-shadow: 0px 5px 5px 0px red;
     border: 2px solid red;
+    background-color: red;
+}
+.bt2:focus{
+    box-shadow: 0px 5px 5px 0px darkred;
+    border: 2px solid darkred;
+    background-color: darkred;
 }
 .bt3{
-    box-shadow: 3px 3px 3px 0px blue;
-    border: 2px solid blue;
+    box-shadow: 0px 5px 5px 0px blue;
+    border: 3px solid blue;
+    background-color: blue;
 }
+.bt3:focus{
+    box-shadow: 0px 5px 5px 0px darkblue;
+    border: 3px solid darkblue;
+    background-color: darkblue;
+}
+
+

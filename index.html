@@ -13,11 +13,11 @@
         <h1 class="hd">Stop Watch</h1>
         <div class="body">
             <div class="border1">
-                <h2 class="timer">00<sub>HH</sub>:00<sub>MM</sub>:00<sub>SS</sub>:00<sub>MS</sub></h2>
+                <h2 class="timer" id="countdown">00<sub>HH</sub>:00<sub>MM</sub>:00<sub>SS</sub>:00<sub>MS</sub></h2>
                 <div class="btns">
-                    <button class="btn  btn-success bt bt1"></button>
-                    <button class="btn  btn-danger bt bt2"></button>
-                    <button class="btn  btn-primary bt bt3"></button>
+                    <button class="btn  btn-success bt bt1" id="b1t" onclick="startTimer()"></button>
+                    <button class="btn  btn-danger bt bt2" onclick="stopTimer()"></button>
+                    <button class="btn  btn-primary bt bt3" onclick="resetTimer()"></button>
                 </div>
             </div>
         </div>
