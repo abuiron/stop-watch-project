@@ -5,7 +5,6 @@
 body{
     background-image: url('./bg_2.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .container{
@@ -24,7 +23,7 @@ body{
 .body{
     height: 500px;
     width: 500px;
-    border: 50px solid #2663ff;
+    border: 50px solid #33c3f7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,5 +106,4 @@ body{
     border: 3px solid darkblue;
     background-color: darkblue;
 }
-
 
