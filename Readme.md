@@ -5,7 +5,11 @@ This is a simple stopwatch application built with HTML, CSS, and JavaScript. It 
 
 ## Deployment
 
-  to watch the live project click here https://aistopwatch.netlify.app/
+  to watch the live project click here [Stop Watch](https://aistopwatch.netlify.app)
+
+## Home Page
+ ![homepage](https://github.com/abuiron/stop-watch-project/blob/main/front.png?raw=true)
+
 ## Features
 - Start, stop, and reset the stopwatch.
 - Animated border effect when the stopwatch is running.
@@ -27,7 +31,7 @@ This is a simple stopwatch application built with HTML, CSS, and JavaScript. It 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/stopwatch-project.git
+   git clone https://github.com/abuiron/stopwatch-project.git
    
    cd stopwatch-project
 
